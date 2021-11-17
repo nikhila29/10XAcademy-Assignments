@@ -1,0 +1,79 @@
+.myList{
+    font-size: larger;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div1{
+  height: 100px;
+  background-color: yellow;
+  margin: 10px;
+  flex-basis: 100%;
+}
+
+.div2{
+  height: 100px;
+  background-color: yellow;
+  margin: 10px;
+  flex-basis: 100%;
+}
+
+
+.div3{
+  height: 100px;
+  background-color:rgb(245, 28, 100);
+  margin: 10px;
+  width: 100%;
+}
+.div4{
+  height: 100px;
+  background-color:rgb(96, 75, 189);
+  margin: 10px;
+  width: 100%;
+}
+.div5{
+  height: 100px;
+  background-color:rgb(96, 75, 189);
+  margin: 10px;
+  width: 100%;
+}
+.div6{
+  height: 100px;
+  background-color:rgb(96, 75, 189);
+  margin: 10px;
+  width: 100%;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+  
+
+
+
+   

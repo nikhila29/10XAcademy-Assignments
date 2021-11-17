@@ -1,0 +1,15 @@
+.parent{
+    background-color: chartreuse;
+    height: 1000vh;
+}
+.todo-item{
+    font-size: 18px;
+
+}
+.exercise-wrapper{
+    text-align: center;
+}
+.wrapper {
+    text-align: center;
+    background-color: darkgoldenrod;
+}

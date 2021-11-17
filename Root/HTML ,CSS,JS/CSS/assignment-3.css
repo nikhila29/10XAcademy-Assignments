@@ -1,0 +1,50 @@
+#second{
+    background-color:#ff1a75;
+    height:200px;
+    width:100%;
+   
+    margin-bottom: 15px;
+  }
+  #first{
+    margin-bottom:100px
+  }
+  #first1 {
+      float: left;
+      width: 48%;
+    height:100px;
+    margin-right:10px;
+      background-color:#ffd633 ;
+  }
+  #first2 {
+      float: left;
+      width: 48%;
+    height:100px;
+      background-color: #ffd633;  
+  }
+  #third1{
+  float: left;
+      width: 30%;
+    height:100px;
+    margin-right:10px;
+      background-color:#9966ff;
+  }
+  #third2{
+  float: left;
+      width: 30%;
+    height:100px;
+    margin-right:10px;
+      background-color:#9966ff;
+  }
+  #third3{
+  float: left;
+      width: 30%;
+    height:100px;
+    margin-right:10px;
+      background-color:#9966ff;
+  }
+    
+    
+    
+    
+    
+    

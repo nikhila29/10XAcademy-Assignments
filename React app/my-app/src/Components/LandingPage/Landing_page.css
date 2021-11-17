@@ -1,0 +1,15 @@
+.text-center{
+    text-align: center;
+}
+.text{
+    color: green;
+    font-style: oblique;
+    font-weight: lighter;
+}
+.button{
+    color: green;
+    background-color:white;
+    border: 1px solid green;
+    border-radius: 20px;
+
+}

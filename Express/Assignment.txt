@@ -1,0 +1,43 @@
+NodeJS - Assignment 3
+Create a NodeJs project using npm init, install express, ejs and any other dependencies required
+Create a list of users on the backend and show them in a table on the 
+frontend with the following data - name, email, age, city, profession (the base route Ex: localhost:300 
+should render this table)
+Add a button below the table to add a user which would redirect to /user/add. This should contain 
+a form with all the input fields mentioned above to create a user.
+On submitting the form, the user should should be added to the list and the page should redirect 
+to the home page i.e. localhost:3000 which shows the table (you should see the new user added to the table)
+kindly submit the solution in the below google form
+https://docs.google.com/forms/d/e/1FAIpQLSfW3T62QGBNahiuTz9JWJh9nyaE_yQscOnV9ch7_uHsgAuEQw/viewform?usp=sf_link
+
+
+
+NodeJS - Assignment 4
+This assignment depends upon the previous assignment
+Create a users schema, store the new user in the database wherever the form is submitted from the UI
+The schema should contain the same fields name, email, age, city, profession with an additional field 
+called selected which is Boolean (false by default)
+Instead of a list/array on the backend, change your code to store and fetch the users in mongodb.
+Add routes to edit the user and Delete the User
+Create select Button in every user row to mark selected as true and delete button in every row to delete the user
+kindly submit the assignment in the below google form
+https://docs.google.com/forms/d/e/1FAIpQLSdnhNjgz1rTP_RQ432OvnLzW4FdOGPz5sGGnDAvqpMnwL29GA/viewform?usp=sf_link
+
+
+NodeJS  - Assignment 5
+Create a Rest API backend service for a post sharing project in NodeJs and Express
+Create a sign up and registration API for users (user email as their username)
+Create User and Post schema for the app, a user can create a post with title, 
+body, and image (URL)
+Create CRUD APIs for the posts, allow all users to see all the posts, but only authorized 
+user can edit/delete the post
+Use JWT for authenticating the users and allowing only authorized users to edit/delete their posts
+kindly submit your solution in the respective google form, (below sheet contains all the
+ respective forms for the assignment)
+Assignment Submission Forms - https://docs.google.com/spreadsheets/d/18mG4MIUM0aQwM4mey7ROeBv0v8R6EvXLyfR-RqKJW94/edit#gid=1737755127
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>User Data</title>
+        <link href="/style.css" rel="stylesheet" />
+    </head>
+    <body style="background-color: aliceblue;">
+        <header><h1>USER DETAILS</h1></header>
+        <div class="tableContent">
+            <table  border="2">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>EMAIL</th>
+                        <th>AGE</th>
+                        <th>CITY</th>
+                        <th>PROFFESION</th>
+                        <th>SELECTED</th>
+                        <th>COMPLETE</th>
+                        <th>DELETE</th>
+                    </tr>
+                </thead>
+
+                <% users.forEach(user=> { %>
+                    <tr>
+                        <% if (user.completes){%>
+                        <td><%=user.Name %></td>
+                        <%}else{%>
+                            <td >
+                                <%= user.Name%>
+                            </td>
+
+                            <%}%>
+
+                        <td><%=user.email %></td>
+                        <td><%=user.age %></td>
+                        <td><%=user.city %></td>
+                        <td><%=user.profession %></td>   
+                        <td><%= user.selected%></td>  
+                        <td>
+                            <a href="/user/<%= user._id%>/complete"><button type="submit">Complete</button></a>
+                        </td>
+                        <td><a href="/user/<%= user._id%>/delete"><button class="b1" type="submit">Delete</button></a>
+                        </td>
+                    </tr>
+            <% })%>
+            </table>
+            <br><br>
+            <a href="/form">Add User</a>
+        </div>
+    </body>
+</html>

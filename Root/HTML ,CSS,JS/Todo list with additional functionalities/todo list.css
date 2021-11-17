@@ -1,0 +1,22 @@
+.parent{
+    background-color: chartreuse;
+    height: 1000vh;
+}
+.todo-complete{
+    text-decoration: line-through;
+    color: blueviolet;
+}
+.wrapper{
+    padding: 0 10vw;
+    font-size: 22px;
+    text-align: center;
+}
+.exercise-wrapper{
+    padding: 20px 40vw;
+    font-size: 18px;
+    text-align: center;
+}
+input{
+    margin-bottom: 20px;
+    text-align: center;
+}

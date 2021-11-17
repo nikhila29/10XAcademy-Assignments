@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px 10px;
+    justify-content: space-between;
+
+}
+.box1{
+    height: 100px;
+    background-color:rgb(130, 129, 221);
+    margin: 10px 0px;
+    flex-basis: 100%;
+}
+.box2{
+    height: 400px;
+    background-color:cadetblue;
+    flex-basis: 100%;
+}
+.box3{
+    height: 100px;
+    background-color: slategrey;
+    margin: 10px 0px;
+    flex-basis: 100%;
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin:10px 10px;
+        justify-content: space-between;
+    
+    }
+    .box1{
+        height: 100px;
+        background-color:rgb(130, 129, 221);
+        margin: 10px 0px;
+        flex-basis: 100%;
+    }
+    .box2{
+        height: 400px;
+        background-color:cadetblue;
+        flex-basis: 100%;
+    }
+    .box3{
+        height: 100px;
+        background-color: slategrey;
+        margin: 10px 0px;
+        flex-basis: 100%;
+    }
+
+}
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin:10px 10px;
+        justify-content: space-between;
+    
+    }
+    .box1{
+        height: 200px;
+        background-color:rgb(130, 129, 221);
+        margin: 10px 0px;
+        flex-basis: 100%;
+    }
+    .box2{
+        height: 600px;
+        background-color:cadetblue;
+        flex-basis: 100%;
+    }
+    .box3{
+        height: 200px;
+        background-color: slategrey;
+        margin: 10px 0px;
+        flex-basis: 100%;
+    }
+}
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin:10px 10px;
+        justify-content: space-between;
+    
+    }
+    .box1{
+        height: 200px;
+        background-color:rgb(130, 129, 221);
+        margin: 10px 0px;
+        flex-basis: 100%;
+    }
+    .box2{
+        height: 600px;
+        background-color:cadetblue;
+        flex-basis: 100%;
+    }
+    .box3{
+        height: 200px;
+        background-color: slategrey;
+        margin: 10px 0px;
+        flex-basis: 100%;
+    }
+
+}

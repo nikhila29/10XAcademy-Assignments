@@ -1,0 +1,134 @@
+.App {
+ text-align: center;
+}  
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html{
+  font-size: 16px;
+}
+body{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color:#333;
+  background-color: #fff;
+  margin: 0;
+}
+.nav{
+  background-color:white;
+  /*padding: 10px 30px 82px 20px;*/
+  padding:0.5rem;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  text-align: center;
+  margin-bottom:1.5rem;
+  height:50px;
+  
+}
+.nav .container{
+  position: absolute;
+  width: 100% !important;
+  max-width:100%;
+  background-color: gainsboro;
+}
+.nav-arrow{
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 1rem;
+  left: 1rem;
+}
+
+.nav-text{
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight:bold;
+  text-align: center;
+  width:100%;
+}
+.nav-btn{
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 1rem;
+  right: 5rem;
+  padding: 6px 50px 28px 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+.block{
+  margin-bottom:1.5rem;
+  margin-bottom:1rem;
+  border:1px solid #eee;
+  border-radius:0.2rem;
+  padding:10px;
+}
+.container{
+  max-width:800px;
+  margin:0 auto;
+}
+.text-label{
+  font-weight:bold;
+}
+.grid{
+  display: block;
+  clear: both;
+}
+.order-info{
+  border-color: gray;
+  background-color: #eee;
+  height: 100px;
+}
+.grid .one-third{
+  width:30%;
+  float: left;
+  padding-right: 10px;
+}
+ul{
+  list-style: none;
+}
+/* .product-list{
+  width: 30%;
+}
+
+.bfc{
+  text-align: right;
+} */

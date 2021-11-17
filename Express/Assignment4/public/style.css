@@ -1,0 +1,46 @@
+h1{
+    align-self: center;
+    padding:10px;
+}
+header{
+    background: aquamarine;
+    height: 74px;
+    border:2px solid;
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+    background: antiquewhite;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+  }
+td:hover {background-color:grey;}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+    background: aquamarine;
+    width: 27%;
+    height: 45%;
+    border: 2px solid;
+}
+.container{
+    padding: 20px;
+}
+
+.tableContent{
+    padding:20px;
+}
+.main{
+
+    height: 100%;
+    background: antiquewhite;
+}

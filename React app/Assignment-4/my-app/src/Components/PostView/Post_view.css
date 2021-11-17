@@ -1,0 +1,84 @@
+.navbar-brand{
+    font-weight: bolder;
+    color: green;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 40px;
+    inline-size: 780px;
+    background-color: white;
+}
+.fab, .far {
+    font-weight: 400;
+    font-size: 49px;
+    color: green;
+}
+.fa, .fas {
+    font-weight: 900;
+    font-size: 40px;
+    background-color: white;
+    color: tomato;
+    inline-size: 50px;
+}
+.text-label{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.text-label1{
+    color: gray;
+}
+.ellipsis{
+    font-weight: 900;
+    font-size: 40px;
+    color:black;
+    text-align: end;
+    justify-content: end;
+
+}
+.fa, .fas {
+    font-weight: 900;
+    font-size: 40px;
+    inline-size: 50px;
+    color: black;
+}
+.footer{
+    font-weight: bolder;
+}
+.fab, .far {
+    font-weight: 400;
+    font-size: 49px;
+    color:gray;
+}
+.fab, .far {
+    font-weight: 400;
+    font-size: 49px;
+    color: gray;
+    margin: 10px;
+}
+.fab, .far {
+    font-weight: 400;
+    font-size: 49px;
+    color: gray;
+    margin: 10px;
+}
+.date{
+    text-align: end;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 0px 0px 167px 3px;
+}
+.card-img-too{
+    background-color:brown;
+}
+.card-header{
+    background-color: white;
+}

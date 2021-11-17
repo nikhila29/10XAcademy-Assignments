@@ -1,0 +1,134 @@
+#container {
+	height: 50px;
+	width: 98%;
+	
+}
+
+
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.header div {
+	display: inline-block;
+	width: 30%;
+
+}
+.right-text {
+	text-align: right;
+}
+.content{
+	height: 1000vh;
+	background: lightgreen;
+}
+.content h1{
+	color: white;
+}
+.content p{
+	color: white;
+}
+.content1{
+	font-size: medium;
+	background-color: blue;
+	padding:17px 54px 0px 55px
+}
+.content h4{
+	color: white;
+}
+.first-name-content input{
+	display: block;
+}
+.content2{
+	text-align: center;
+}
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	.header div {
+		display: inline-block;
+		width: 30%;
+	
+	}
+	.right-text {
+		text-align: right;
+	}
+	.content{
+		height: 1000vh;
+		background: lightgreen;
+	}
+	.content h1{
+		color: white;
+	}
+	.content p{
+		color: white;
+	}
+	.content1{
+		font-size: medium;
+		background-color: blue;
+		padding:17px 54px 0px 55px
+	}
+	.content h4{
+		color: white;
+	}
+	.first-name-content input{
+		display: block;
+		
+	}
+	.content2{
+		text-align: center;
+	}
+}
+
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.header div {
+		display: inline-block;
+		width: 30%;
+	
+	}
+	.right-text {
+		text-align: right;
+	}
+	.content{
+		height: 1000vh;
+		background: lightgreen;
+	}
+	.content h1{
+		color: white;
+	}
+	.content p{
+		color: white;
+	}
+	.content1{
+		font-size: medium;
+		background-color: blue;
+		padding:17px 54px 0px 55px
+	}
+	.content h4{
+		color: white;
+	}
+	.first-name-content input{
+		display: block;
+	}
+	
+}
+
+
+
+  

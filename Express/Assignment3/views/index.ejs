@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>User Data</title>
+        <link href="/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Profession</th>
+            </tr>
+
+            <% users.forEach(user=> { %>
+                <tr>
+                    <td><%=user.Name %></td>
+                    <td><%=user.email %></td>
+                    <td><%=user.age %></td>
+                    <td><%=user.city %></td>
+                    <td><%=user.profession %></td>     
+                </tr>
+          <% })%>
+        </table>
+        <br><br>
+        <a href="/form">Add User</a>
+
+    </body>
+</html>
